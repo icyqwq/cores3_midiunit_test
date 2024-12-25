@@ -1,4 +1,4 @@
-# Test project for Midi unit.
+# Test project for Kantanplay
 
 Before build, please use blow command clone M5GFX and M5Unified to components folder.
 
