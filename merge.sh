@@ -1,0 +1,1 @@
+esptool.py --chip esp32s3 merge_bin -o kantanplay.bin --flash_size 16MB --flash_freq 80m 0x0 build/bootloader/bootloader.bin 0x8000 build/partition_table/partition-table.bin 0x11000 build/ota_data_initial.bin 0x20000 build/M5CoreS3-idf-project-template.bin
